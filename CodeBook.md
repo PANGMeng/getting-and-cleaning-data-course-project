@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>coursera-getting-and-cleaning-data/README.md at master · eriky/coursera-getting-and-cleaning-data</title>
+    <title>coursera-getting-and-cleaning-data/CodeBook.md at master · eriky/coursera-getting-and-cleaning-data</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/OTYzMTM0MTplYzc5MjQwN2FlNWQwYzFhYjU1MmMyMGZjM2YxNTEwZjpmNDJjN2JhMGMxZGUzYmJkMzgzMGE2YzA3NDU0OWQ3ZTgyMDE3ZDgzMDA1MjJlYTM1MDUwNjVjZGE1MWI1M2Ez--11e36d0eb811ec8c4ede60a1d72b384582e52c41">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/OTYzMTM0MTplYzc5MjQwN2FlNWQwYzFhYjU1MmMyMGZjM2YxNTEwZjo3YTgzMjFkYzNlMWRmMGYxZTgwM2E4OWNkOTZjM2YwNzk2ZTMyNWEyMTg5NmI5NTY5Yzk3YTAzYjhmYjcyOGE2--8f7b0a4b8cd2743324efbb049a97174650afe313">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -33,7 +33,7 @@
 
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="4CB4201B:6D1B:96B2BED:5587181E" name="octolytics-dimension-request_id" /><meta content="9631341" name="octolytics-actor-id" /><meta content="PANGMeng" name="octolytics-actor-login" /><meta content="c19bdd3f4dd6d73c5ef44fc71ea3bfef92b3d8101c14106521ce48a48f88754b" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="4CB4201B:7354:85C1F76:55871848" name="octolytics-dimension-request_id" /><meta content="9631341" name="octolytics-actor-id" /><meta content="PANGMeng" name="octolytics-actor-login" /><meta content="c19bdd3f4dd6d73c5ef44fc71ea3bfef92b3d8101c14106521ce48a48f88754b" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -47,7 +47,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="lLD2D2Ils9xcZYCvL9ckYoGbysNJUMLMtvG1vbHwyPezbxi44a3ZGnYTlH9oXS/9XAuFFwPBs9XsoOy4im5TDA==" name="csrf-token" />
+<meta content="Fc5zEUlRbN8h2qT5SSWouCoxEpHVgR+hptKr+t9fqR6FgsbN/2wx7wLAp4uTeAOZrPg9l6itfJq9ysuDaBzv5w==" name="csrf-token" />
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-805b1dc56a27171cceb8daae5c9e50c759789b9473bca4278a8145697ca3e05b.css" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-7f8f14b96da3b21f83e68e993b1c2a60d443d867b62bfe83c1cfd54249ce9913.css" media="all" rel="stylesheet" />
@@ -195,7 +195,7 @@
           Settings
         </a>
 
-        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CPpPEWU7qJzvh2zOQ166RXKR53kOCT3DYWvTks4Kj7RshSOn1lL41hGB1F/j+W1ilH8cmnMHeVQTwyj1xMOFbQ==" /></div>
+        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xVIIuGE10Of7T93WjKUQe56OZjX91ZgfQ8OHPcg0SuKndvJ91z6xmqwTmkuZS1d2XIK/ljNzQduVB+Q/iibClw==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -226,7 +226,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FjtaL2cKTfsw2H830dbXAETAJ2E0UpUsHbibrQbomL4bDnEX5M9MoKFTX+P++UKhqM/TeLusv88HFfcoAfGAew==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="20034365" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FJCIWlB+1W2WEoq8yegtD9Jc7Q1cTTIvGxfTfRWK/YzUHuQ4NemOKjVe/p2E5WrV8oF9aA8JzyrycGjH3NlsiQ==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="20034365" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/eriky/coursera-getting-and-cleaning-data/subscription"
@@ -301,7 +301,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yZZgimsWGYOtX7nao208VzAC0fAhcwk+OvKZeT3rBKxRW9l9X2/YG+ODs4mNrJycW3xYWWTx7iSj0mGrhZIdhA==" /></div>
+    <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="H+gVZmXV4NU5OvTjNDhhIWHv/lv5sm/FdEnIQXdNvy21hQXengcAsOS6l/y2Z+NoLSMHWly2XJypyOi4UcKcDw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar eriky/coursera-getting-and-cleaning-data"
@@ -313,7 +313,7 @@
           2
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="G1G2Ma1fHMODU9X2Ly6BpSzWwt8Eu2t3DZYwvrwhd0FEOWzcCGjLyHIdik2+sZoJ1WfiJ4KIFvb8qSBuUPTuiQ==" /></div>
+    <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ultxTdxBTW9lA0NeozQsNzAslaS2hQLJjcXPE8u3pvaQUUiQ72GNUsGCqLZjd6FLwEYS8lRv1ovMlMPLMa243w==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star eriky/coursera-getting-and-cleaning-data"
@@ -329,7 +329,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="oXze8L/psw3PDzghfHGAh9nP1xMdM5vn9szFm2O5nR50WuxY6eShJXbAYotb76NuLCPMLVEruFqtWf4mwHV2rQ==" /></div>
+          <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="leQcinIh+unYD8fF4+cBCGgoLgmWq9wkKGwhQEOnKRZvaRpkzBs1wDvPiSEsU14v7jqxENrqB68GkOgVU0hjnA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -455,7 +455,7 @@
 
 
 <div class="clone-options">You can clone with
-  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AvZuywpfPJTYoWY8mh5SY8Xp4tp19bFYVM9d9t61St1CIHtyrlno08RqdjgzRcaDaPRpES0XKOKwF8l2t4IyTQ==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kiNusWW0356qBOHlyhJ389KOYziwJT/zVdMwFtLjMYcnpulzUsXDDls5r3IdCbxx+GS+rQ+3slYRCWfBXMSp2A==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DblXrIg1CF2PSgENlSaHdzIUXqhGyx6XXNNpUQOddNHjILtMtJVYS2T6wbNeR2gBUfMUgbpTwq908baaXagptg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kVok4MD6PoLBd+ImzrBk3kC47JsJ+3CEZzUqEpqCUOg4wrHx5CZdgCp0PNCjVwgjf6RcTFW0DMppogaj08UUug==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XDGQb0IohexqH9FLbUMTxiRaF1/fx2iaaCDe+RoFJec9LD0tGORSRwwWIGlWNEe+NoSC+/IWFkMFpgYOu6K84A==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/rdS4jmJinp9awYWXfFlnse85UeFo5GedH9scC9EfOePZbGEBjwNKWIRpWk5U9emFjn6Ixfq2iZrQWIIrxYlhg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
   <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
     <span class="octicon octicon-question"></span>
   </a>
@@ -483,9 +483,9 @@
 
           
 
-<a href="/eriky/coursera-getting-and-cleaning-data/blob/a7d65fdf4b737e131b8d3708ffde3c5c58308c01/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/eriky/coursera-getting-and-cleaning-data/blob/a7d65fdf4b737e131b8d3708ffde3c5c58308c01/CodeBook.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:58d0a0033ac38d745773b5ee8308cc23 -->
+<!-- blob contrib key: blob_contributors:v21:a7d30f161388b5eb7038ae0ce18f8514 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -529,7 +529,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/eriky/coursera-getting-and-cleaning-data/blob/master/README.md"
+               href="/eriky/coursera-getting-and-cleaning-data/blob/master/CodeBook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -568,18 +568,18 @@
   </div>
 
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/eriky/coursera-getting-and-cleaning-data" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">coursera-getting-and-cleaning-data</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/eriky/coursera-getting-and-cleaning-data" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">coursera-getting-and-cleaning-data</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
   </div>
 </div>
 
 
   <div class="commit file-history-tease">
     <div class="file-history-tease-header">
-        <img alt="@eriky" class="avatar" height="24" src="https://avatars1.githubusercontent.com/u/839521?v=3&amp;s=48" width="24" />
+        <img alt="@eriky" class="avatar" data-user="839521" height="24" src="https://avatars1.githubusercontent.com/u/839521?v=3&amp;s=48" width="24" />
         <span class="author"><a href="/eriky" rel="author">eriky</a></span>
-        <time datetime="2014-05-21T20:14:12Z" is="relative-time">May 21, 2014</time>
+        <time datetime="2014-05-21T20:18:43Z" is="relative-time">May 21, 2014</time>
         <div class="commit-title">
-            <a href="/eriky/coursera-getting-and-cleaning-data/commit/8d1bc7c90ae869d3efac69e9aa28e953b47dbe6f" class="message" data-pjax="true" title="updated codebook and readme">updated codebook and readme</a>
+            <a href="/eriky/coursera-getting-and-cleaning-data/commit/fb5caad1fc048180f13ec4af6743f71fd24d5fe9" class="message" data-pjax="true" title="updated codebook">updated codebook</a>
         </div>
     </div>
 
@@ -596,7 +596,7 @@
       <h2 class="facebox-header">Users who have contributed to this file</h2>
       <ul class="facebox-user-list">
           <li class="facebox-user-list-item">
-            <img alt="@eriky" height="24" src="https://avatars1.githubusercontent.com/u/839521?v=3&amp;s=48" width="24" />
+            <img alt="@eriky" data-user="839521" height="24" src="https://avatars1.githubusercontent.com/u/839521?v=3&amp;s=48" width="24" />
             <a href="/eriky">eriky</a>
           </li>
       </ul>
@@ -608,69 +608,100 @@
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/eriky/coursera-getting-and-cleaning-data/raw/master/README.md" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/eriky/coursera-getting-and-cleaning-data/blame/master/README.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/eriky/coursera-getting-and-cleaning-data/commits/master/README.md" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/eriky/coursera-getting-and-cleaning-data/raw/master/CodeBook.md" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/eriky/coursera-getting-and-cleaning-data/blame/master/CodeBook.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/eriky/coursera-getting-and-cleaning-data/commits/master/CodeBook.md" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
-           href="github-windows://openRepo/https://github.com/eriky/coursera-getting-and-cleaning-data?branch=master&amp;filepath=README.md"
+           href="github-windows://openRepo/https://github.com/eriky/coursera-getting-and-cleaning-data?branch=master&amp;filepath=CodeBook.md"
            aria-label="Open this file in GitHub for Windows"
            data-ga-click="Repository, open with desktop, type:windows">
             <span class="octicon octicon-device-desktop"></span>
         </a>
 
-            <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/edit/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lDzrKeTtTm0iHRJSOWVhFp8VrguSl2oseJpzzghdviiqZ0Fczs2AKwXWycfjpUjg4Yo43V8YVYVgO7nO2YAUzQ==" /></div>
+            <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/edit/master/CodeBook.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nPAElGpk0TvlYHp5vvHuoDOdIav3g/qJe1jFlfnDjpvxjetf4GOznamPqtTjHNbJRKH456dtn4Kof2hQLRYUQg==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="O1rwWp1bKsQgaPB7rplZg1oxUE3WhU6BBGUSAyEj/euCdcAhjOJY0WkFN76uSd7rXmeiUYRV2VXo0YS8gK7O1g==" /></div>
+          <form accept-charset="UTF-8" action="/eriky/coursera-getting-and-cleaning-data/delete/master/CodeBook.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+eQuMrr2S+MZjKbduLUAP7Oa37Owo6mGkkRJ04xHOtQHNPTf16CUeun9aE1akkpVzD6ZgyVZuQWZgNMytdHiLg==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-        35 lines (24 sloc)
+        59 lines (44 sloc)
         <span class="file-info-divider"></span>
-      1.414 kB
+      3.002 kB
     </div>
   </div>
     <div id="readme" class="blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-getting-and-cleaning-data-course-project" class="anchor" href="#getting-and-cleaning-data-course-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting and Cleaning Data: Course Project</h1>
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-codebook-for-the-tidy-dataset" class="anchor" href="#codebook-for-the-tidy-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>CodeBook for the tidy dataset</h1>
 
-<h2><a id="user-content-introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+<h2><a id="user-content-data-source" class="anchor" href="#data-source" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data source</h2>
 
-<p>This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization.
-What follows first are my notes on the original data.</p>
+<p>This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</a></p>
 
-<h2><a id="user-content-about-the-raw-data" class="anchor" href="#about-the-raw-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the raw data</h2>
+<h2><a id="user-content-feature-selection-" class="anchor" href="#feature-selection-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Selection </h2>
 
-<p>The features (561 of them) are unlabeled and can be found in the x_test.txt. 
-The activity labels are in the y_test.txt file.
-The test subjects are in the subject_test.txt file.</p>
+<p>I refer you to the README and features.txt files in the original dataset to learn more about the feature selection for this dataset. And there you will find the follow description:</p>
 
-<p>The same holds for the training set.</p>
+<p>The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. </p>
 
-<h2><a id="user-content-about-the-script-and-the-tidy-dataset" class="anchor" href="#about-the-script-and-the-tidy-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the script and the tidy dataset</h2>
+<p>Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). </p>
 
-<p>I created a script called run_analysis.R which will merge the test and training sets together.
-Prerequisites for this script:</p>
+<p>Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). </p>
 
-<ol>
-<li>the UCI HAR Dataset must be extracted and..</li>
-<li>the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"</li>
-</ol>
+<p>The reasoning behind my selection of features is that the assignment explicitly states "Extracts only the measurements on the mean and standard deviation for each measurement."
+To be complete, I included all variables having to do with mean or standard deviation.</p>
 
-<p>After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.</p>
+<p>In short, for this derived dataset, these signals were used to estimate variables of the feature vector for each pattern:<br>
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.</p>
 
-<p>Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity.
-This tidy dataset will be written to a tab-delimited file called tidydata.txt, which can also be found in this repository.</p>
+<ul>
+<li>tBodyAcc-XYZ</li>
+<li>tGravityAcc-XYZ</li>
+<li>tBodyAccJerk-XYZ</li>
+<li>tBodyGyro-XYZ</li>
+<li>tBodyGyroJerk-XYZ</li>
+<li>tBodyAccMag</li>
+<li>tGravityAccMag</li>
+<li>tBodyAccJerkMag</li>
+<li>tBodyGyroMag</li>
+<li>tBodyGyroJerkMag</li>
+<li>fBodyAcc-XYZ</li>
+<li>fBodyAccJerk-XYZ</li>
+<li>fBodyGyro-XYZ</li>
+<li>fBodyAccMag</li>
+<li>fBodyAccJerkMag</li>
+<li>fBodyGyroMag</li>
+<li>fBodyGyroJerkMag</li>
+</ul>
 
-<h2><a id="user-content-about-the-code-book" class="anchor" href="#about-the-code-book" aria-hidden="true"><span class="octicon octicon-link"></span></a>About the Code Book</h2>
+<p>The set of variables that were estimated (and kept for this assignment) from these signals are: </p>
 
-<p>The CodeBook.md file explains the transformations performed and the resulting data and variables.</p>
+<ul>
+<li>mean(): Mean value</li>
+<li>std(): Standard deviation</li>
+</ul>
+
+<p>Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:</p>
+
+<ul>
+<li>gravityMean</li>
+<li>tBodyAccMean</li>
+<li>tBodyAccJerkMean</li>
+<li>tBodyGyroMean</li>
+<li>tBodyGyroJerkMean</li>
+</ul>
+
+<p>Other estimates have been removed for the purpose of this excercise.</p>
+
+<p>Note: features are normalized and bounded within [-1,1].</p>
+
+<p>The resulting variable names are of the following form: tbodyaccmeanx, which means the mean value of tBodyAcc-XYZ.</p>
 </article>
   </div>
 
@@ -710,7 +741,7 @@ This tidy dataset will be written to a tab-delimited file called tidydata.txt, w
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.05886s from github-fe126-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.05046s from github-fe129-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
